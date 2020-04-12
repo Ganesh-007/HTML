@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial Rounded MT;
+  font-size: large;
+}
+
+header{
+background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(../texture.jpg);
+height: 110vh;
+background-size: 100% 100%;
+background-position: center;
+}
+
+ul{
+  float: right;
+   list-style-type: none;
+    margin-top: 35px;
+    margin-right:20px;
+}
+
+ul li{
+display: inline-block;
+}
+
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 10px 20px;
+border: 2px solid #transparent;
+transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color: #fff;
+color: #000;
+}
+
+ul li.active a{
+        background-color: #fff;
+        color: #000;
+}
+.table{
+position: absolute;
+margin-top:-95px;
+}
+
+     
+.table th{
+color: #fff;
+font-size: 30px;
+}
+
+.table td{
+color: #000;
+font-size: 30px;
+}
+
+.main1 textarea{
+margin-top: 150px;
+margin-left: 300px;
+background: rgba(0,0,0,0.2);
+box-sizing: border-box;
+border:3.5px solid #000;
+border-radius: 20px;
+color:#fff;
+}
+
+
+.main1 input[type="option"]
+{
+float: inherit;
+border: none;
+outline: none;
+width: 85px;
+height: 35px;
+background: rgba(0,0,0,0.8);   
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+position: relative;
+left:30px;
+}
+
+.main1 input[type="option"]:hover
+{
+cursor: pointer;
+background: #fb2525;
+color: #fff;
+width: inherit;
+}
+
+.table input[type="text"]
+{
+border:ridge;
+border-bottom: 2px solid #fff;
+border-radius:5px;
+background: transparent;
+outline: none;
+height: 50px;
+width: -90px;
+color: #fff;
+font-size: 16px;
+}
